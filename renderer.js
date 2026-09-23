@@ -5,30 +5,30 @@ export class Renderer {
         this.vizCanvas = vizCanvas;
         this.vizCtx = vizCanvas.getContext('2d');
         
-this.mouthSets = {
-    happy: {
-        closed: 'mouth0009.png',
-        cks:    'mouth0007.png',
-        fv:     'mouth0008.png',
-        o:      'mouth0021.png',
-        u:      'mouth0022.png',
-        e:      'mouth0002.png',
-        a:      'mouth0005.png',                                                            
-        i:      'mouth0001.png',
-        ex:     'mouth0007.png'
-    },
-    sad: {
-        closed: 'mouth0020.png',
-        cks:    'mouth0018.png',
-        fv:     'mouth0019.png',
-        o:      'mouth0021.png',
-        u:      'mouth0022.png',
-        e:      'mouth0013.png',
-        a:      'mouth0016.png',
-        i:      'mouth0014.png',
-        ex:     'mouth0018.png'
-    }
-};
+        this.mouthSets = {
+            happy: {
+                closed: 'mouth0009.png',     // resting smile (no talking)
+                cks:    'mouth0007.png',     // c / k / s / t / r (smiling)
+                fv:      'mouth0008.png',     // f mouth (fffff)
+                o:      'mouth0010 (1).png', // o sound
+                u:      'mouth0011.png', // u sound
+                e:      'mouth0002.png',     // in-between -> mouth0005 (still smiling) - open-ish e
+                a:      'mouth0005.png',     // open mouth (a)
+                i:      'mouth0001.png',     // broad open (i)
+                ex:     'mouth0006.png'      // open vowel, very loud
+            },
+            sad: {
+                closed: 'mouth0020.png',     // resting frown (no talking yet)
+                cks:    'mouth0018.png',     // t sound (frowning)
+                fv:      'mouth0019.png',     // f mouth (fffff)
+                o:      'mouth0021.png',     // o mouth circle
+                u:      'mouth0022.png',     // o mouth circle
+                e:      'mouth0013.png',     // frowning in-between -> o/u (e-ish)
+                a:      'mouth0016.png',     // frowning a / e / i
+                i:      'mouth0014.png',     // in-between -> mouth0016 (frowning a/e/i)
+                ex:     'mouth0017.png'      // open vowel, very loud
+            }
+        };
 
         this.loadedSets = {};
         this.currentSetName = 'happy';
