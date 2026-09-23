@@ -10,23 +10,23 @@ this.mouthSets = {
         closed: 'mouth0009.png',
         cks:    'mouth0007.png',
         fv:     'mouth0008.png',
-        o:      'mouth0010.png',
+        o:      'mouth0010 (1).png',
         u:      'mouth0011.png',
         e:      'mouth0002.png',
         a:      'mouth0005.png',
         i:      'mouth0001.png',
-        ex:     'mouth0006.png'
+        ex:     'mouth0007.png'
     },
     sad: {
         closed: 'mouth0020.png',
         cks:    'mouth0018.png',
         fv:     'mouth0019.png',
-        o:      'mouth0010.png',
+        o:      'mouth0010 (1).png',
         u:      'mouth0011.png',
         e:      'mouth0013.png',
         a:      'mouth0016.png',
         i:      'mouth0014.png',
-        ex:     'mouth0017.png'
+        ex:     'mouth0018.png'
     }
 };
 
